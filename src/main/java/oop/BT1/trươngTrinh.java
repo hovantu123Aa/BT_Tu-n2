@@ -20,6 +20,6 @@ public class trươngTrinh {
         System.out.println("Thong tin ket qua ");
         System.out.println("HCN r1: dai:" + r1.getLenght() + " -rong: " + r1.getWidth() + "chu vi" +r1.tinhchuvi()  + "dien tich" + r1.tinhdientich());
         System.out.println("HCN r2: dai:" + r2.getLenght() + " -rong: " + r2.getWidth() + "-dientich" + r2.tinhdientich() + "-chuvi" + r2.tinhchuvi());
-
+        System.err.println("kq:");
     }
 }
