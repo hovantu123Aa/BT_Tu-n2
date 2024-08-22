@@ -9,9 +9,13 @@ package lad02.bt1;
  * @author ADMIN
  */
 public class HinhChuNhat {
+
     public double dai;
     public double rong;
-public  HinhChuNhat(){}
+
+    public HinhChuNhat() {
+    }
+
     public HinhChuNhat(double dai, double rong) {
         this.dai = dai;
         this.rong = rong;
@@ -41,7 +45,7 @@ public  HinhChuNhat(){}
         return dai * rong;
     }
 
-    public  void Xuat(){
-        System.out.println("HCN_Chieu dai" +dai + "chieu rong" + rong+ " Chu vi"+getChuVi()+"Dien tich " +getDienTich());
+    public void Xuat() {
+        System.out.println("HCN_Chieu dai" + dai + "chieu rong" + rong + " Chu vi" + getChuVi() + "Dien tich " + getDienTich());
     }
 }
